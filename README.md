@@ -20,7 +20,7 @@ Mememon is a Pokémon inspired game, it is about Pokémon fight memes.
      main.py
 
      rpg_arena.py
-2. Download [PYcharm](https://www.jetbrains.com/pycharm/)
+2. Download [PYcharm](https://www.jetbrains.com/pycharm/download/?section=windows)
 3. Install PYgame, on windows run:
 
        python -m pip install pygame
