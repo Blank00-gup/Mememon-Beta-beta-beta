@@ -42,3 +42,4 @@ Mememon is a Pokémon inspired game, it is about Pokémon fight memes.
 ---
 Currently we are on version 1.0.0 BETA BETA BETA, so right now it is just setup,
 so you can't fight ***YET***
+https://github.com/Blank00-gup/Mememon-Beta-beta-beta.wiki.git
