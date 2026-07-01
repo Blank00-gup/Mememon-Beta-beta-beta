@@ -1,12 +1,12 @@
-## ***Mememon-beta-beta-beta***
-[![version](https://img.shields.io/badge/Version_1.0.0_BETA_BETA_BETA-brightgreen?style=for-the-badge)](#version)
-[![runner](https://img.shields.io/badge/How_To_Run-brightgreen?style=for-the-badge)](#Installation)
+# ***Mememon-beta-beta-beta***
+[![version](https://img.shields.io/badge/Version-brightgreen?style=for-the-badge)](#version)
+[![runner](https://img.shields.io/badge/How_To_Run-brightgreen?style=for-the-badge)](#installing)
 ---
 ### ***About the game***
 ---
 Mememon is a Pokémon inspired game, it is about Pokémon fight memes.
-
-### ***Installation***
+### ***Installing***
+---
 1. First orginze the files like this:
 
    Mememon/
@@ -28,7 +28,10 @@ Mememon is a Pokémon inspired game, it is about Pokémon fight memes.
    On linux run:
 
         python3 -m pip install pygame
-4. Run the game:
+4. Install music supplies (Linux ONLY):
+   
+       sudo apt update sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 ffmpeg
+6. Run the game:
 
     On windows do:
 
