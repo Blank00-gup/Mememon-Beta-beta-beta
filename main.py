@@ -119,7 +119,7 @@ while True:
         draw_text(100,300, Meme_attack_text)
 
 
-    pygame.mixer.music.load("music/pokemon.mp3")  # Replace "your_music_file.mp3" with the actual path to your MP3 file.
+    pygame.mixer.music.load("music/pokemon.mp3")
 
     pygame.mixer.music.play()
 
