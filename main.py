@@ -1,16 +1,18 @@
 import pygame
 import sys
-
 import time
 import random
 import rpg_arena
 
-from pygame import mixer
+pygame.init()
+pygame.mixer.init()
 
+# OPTIONAL: safer volume control
+pygame.mixer.music.set_volume(0.5)
 
-
-mixer.init()
-
+# Load and play music
+pygame.mixer.music.load("music/pokemon.mp3")
+pygame.mixer.music.play(-1)  # loop forever
 
 
 
@@ -22,10 +24,6 @@ Doge_image = pygame.image.load("images/Buff_doge.png")
 Poggers_image = pygame.image.load("images/poggers.png")
 
 
-
-
-
-pygame.init()
 
 
 
@@ -117,12 +115,6 @@ while True:
 
     if sad == True:
         draw_text(100,300, Meme_attack_text)
-
-
-    pygame.mixer.music.load("music/pokemon.mp3")
-
-    pygame.mixer.music.play()
-
 
 
     pygame.display.flip()
