@@ -1,6 +1,7 @@
 # ***Mememon-beta-beta-beta***
 [![version](https://img.shields.io/badge/Version-brightgreen?style=for-the-badge)](#version)
 [![runner](https://img.shields.io/badge/How_To_Run-brightgreen?style=for-the-badge)](#installing)
+[![wiki](https://img.shields.io/badge/Wiki-brightgreen?style=for-the-badge)](https://github.com/Blank00-gup/Mememon-Beta-beta-beta/wiki)
 ---
 ### ***About the game***
 ---
@@ -45,5 +46,3 @@ Mememon is a Pokémon inspired game, it is about Pokémon fight memes.
 ---
 Currently we are on version 1.0.0 BETA BETA BETA, so right now it is just setup,
 so you can't fight ***YET***
-
-[Wiki](https://github.com/Blank00-gup/Mememon-Beta-beta-beta.wiki.git)
