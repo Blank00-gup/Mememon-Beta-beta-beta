@@ -9,31 +9,18 @@
 Mememon is a Pokémon inspired game, it is about Pokémon fight memes.
 ### ***Installing***
 ---
-1. First orginze the files like this:
-
-   Mememon/
-
-   pycache/ rpg_arena.cpython-310
-
-     images/ buff_doge.png poggers.png
-
-     music/ pokemon.mp3
-
-     main.py
-
-     rpg_arena.py
-2. Download [PYcharm](https://www.jetbrains.com/pycharm/download) (OPTIONAL)
-3. Install PYgame, on windows run:
+1. Download [PYcharm](https://www.jetbrains.com/pycharm/download) (OPTIONAL)
+2. Install PYgame, on windows run:
 
        python -m pip install pygame
 
    On linux run:
 
         python3 -m pip install pygame
-4. Install music supplies (Linux ONLY):
+3. Install music supplies (Linux ONLY):
    
        sudo apt update sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 ffmpeg
-6. Run the game:
+4. Run the game:
 
     On windows do:
 
