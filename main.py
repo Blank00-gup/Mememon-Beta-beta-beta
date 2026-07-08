@@ -6,41 +6,26 @@ import rpg_arena
 
 pygame.init()
 pygame.mixer.init()
-
 # OPTIONAL: safer volume control
 pygame.mixer.music.set_volume(0.5)
-
 # Load and play music
 pygame.mixer.music.load("music/pokemon.mp3")
 pygame.mixer.music.play(-1)  # loop forever
-
-
-
-
 randNum = random.randint(1, 3)
-
-
 Doge_image = pygame.image.load("images/Buff_doge.png")
 Poggers_image = pygame.image.load("images/poggers.png")
-
-
-
-
-
-
+background_image = pygame.image.load("images/background.png")
+bx = 0
+by = 0
 screen_width = 640
 screen_height = 480
-
-
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("hold this to play music")
-
+pygame.display.set_caption("Mememon-Beta-beta-beta")
 player_x = 100
 player_y = 250
 enemy_x = 500
-enemy_y = 110
+enemy_y = 250
 text = "Doge"
-bg_color = (255, 255, 255)
 text_color = (0, 0, 0)
 ui_color = (255, 255, 255)
 font = pygame.font.SysFont("", 30)
@@ -63,21 +48,15 @@ def Enemy_attack():
     elif randNum == 2:
         rpg_arena.Eattack()
 
-
-
-
-
-
-
-
-
+def background():
+    screen.blit(background_image, (bx, by)) #Initialize background image
 
 def draw_sprites():
     screen.blit(Doge_image, (player_x, player_y))
     screen.blit(Poggers_image, (enemy_x, enemy_y))
     draw_text(100, 310, text)
-    draw_text(500, 170, text2)
-    draw_text(520, 190, str(rpg_arena.player2.health))
+    draw_text(500, 310, text2)
+    draw_text(520, 330, str(rpg_arena.player2.health))
     draw_text(110, 330, str(rpg_arena.player1.health))
 
     #("doge"), font, text_color, 10, 10
@@ -105,10 +84,7 @@ while True:
         if event.type == pygame.QUIT:
             sys.exit()
 
-
-
-    screen.fill(bg_color)
-
+    background()
     draw_sprites()
     draw_meme()
     draw_attack()
