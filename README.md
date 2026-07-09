@@ -3,6 +3,8 @@
 [![runner](https://img.shields.io/badge/How_To_Run-brightgreen?style=for-the-badge)](#installing)
 [![wiki](https://img.shields.io/badge/Wiki-brightgreen?style=for-the-badge)](https://github.com/Blank00-gup/Mememon-Beta-beta-beta/wiki)
 [![dev](https://img.shields.io/badge/Dev_Chat-brightgreen?style=for-the-badge)](https://github.com/Blank00-gup/Mememon-Beta-beta-beta/discussions/4)
+[![pulls](https://img.shields.io/badge/Pull_Requests-brightgreen?style=for-the-badge)](https://github.com/Blank00-gup/Mememon-Beta-beta-beta/pulls)
+[![issues](https://img.shields.io/badge/Issues-brightgreen?style=for-the-badge)](https://github.com/Blank00-gup/Mememon-Beta-beta-beta/issues)
 ---
 ### ***About the game***
 ---
