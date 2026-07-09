@@ -21,7 +21,7 @@ Mememon is a Pokémon inspired game, it is about Pokémon fight memes.
         python3 -m pip install pygame
 3. Install music supplies (Linux ONLY):
    
-       sudo apt update sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 ffmpeg
+       sudo apt update && sudo apt install libsdl2-mixer-2.0-0 libsdl2-2.0-0 ffmpeg
 4. Run the game:
 
     On windows do:
