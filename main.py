@@ -62,17 +62,21 @@ def draw_sprites():
     #("doge"), font, text_color, 10, 10
 def draw_meme():
     keys = pygame.key.get_pressed()
-    if keys[pygame.K_1]:
+    if keys[pygame.K_1] and rpg_arena.won == "":
         rpg_arena.Meme_attack2()
         time.sleep(1)
         Enemy_attack()
+    if rpg_arena.won == rpg_arena.player1.name:
+        draw_text(300,240,"Doge Wins!!!")
+    if rpg_arena.won == rpg_arena.player2.name:
+        draw_text(300, 240, "Poggers Wins!!!")
 
 
 
 
 def draw_attack():
     keys = pygame.key.get_pressed()
-    if keys[pygame.K_2]:
+    if keys[pygame.K_2] and rpg_arena.won == "":
         rpg_arena.Attack2()
         time.sleep(1)
         Enemy_attack()
